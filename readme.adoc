@@ -1,5 +1,6 @@
 = Project specifications
-This project is a simple basic stroboscope using arduino and power LED's in its simplest form.
+
+* This project is a simple basic stroboscope using arduino and power LED's in its simplest form.
 * The project can flash the power LED with frequencies from 1Hz to 50Khz. Duty cycle is fixed in the code.
 * The stroboscope is fed by a 3 Cell 11.2v Lipo battery.
 * The last used frequency is stored in EEPROM and will be restored with the device is turned on.
@@ -10,6 +11,19 @@ This project is a simple basic stroboscope using arduino and power LED's in its 
 * Rotary switch: Turning the rotary switch to right or left will increase and decrease the digit at the cursor respectively.
 * Double push button: Pressing it doubles the frequency
 * Half push button: pressin it halves the frequency
+
+= Parts list
+* https://store.arduino.cc/usa/arduino-nano[Arduino nano]
+* https://www.infineon.com/cms/en/product/power/mosfet/20v-300v-n-channel-power-mosfet/80v-100v-n-channel-power-mosfet/irf540n/[IRF540N Mosfet]
+* https://en.wikipedia.org/wiki/2N2222[2N2222 generic NPN transistor]
+* 1K resisor
+* 10K resistor
+* http://www.ebay.de/itm/262467105661[10W power LED]
+* LED heatsink
+* https://www.ebay.com/itm/2-x-ALPS-EC11-Rotary-Encoder-30-Pulses-20mm-Shaft-PC-Mount-with-Push-on-Switch/252360818672?epid=1863404209&hash=item3ac1e07ff0:g:Y2AAAOSwp5JWXZQv[Rotary swtich with PushButton]
+* On/Off switch
+* 3Cell Lipo Battery
+* https://www.ebay.de/itm/Hot-Sale-BLACK-PLASTIC-ELECTRONICS-PROJECT-BOX-ENCLOSURE-CASE-100x60x25-mm-CJ/112557747586?ssPageName=STRK%3AMEBIDX%3AIT&var=412955226802&_trksid=p2057872.m2749.l2649[Plastic project box 10*6*25 mm]
 
 
 

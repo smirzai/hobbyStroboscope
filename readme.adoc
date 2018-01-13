@@ -1,3 +1,18 @@
+= Project specifications
+This project is a simple basic stroboscope using arduino and power LED's in its simplest form.
+* The project can flash the power LED with frequencies from 1Hz to 50Khz. Duty cycle is fixed in the code.
+* The stroboscope is fed by a 3 Cell 11.2v Lipo battery.
+* The last used frequency is stored in EEPROM and will be restored with the device is turned on.
+
+= Controls
+* On/Off switch: cuts the main power when off
+* Rotary switch push button: When the system starts, the cursor is on the most significant digit. Each pushing of push button, will move cursor to right. The cursor will roll to the most significant when it reaches the least significant digit.
+* Rotary switch: Turning the rotary switch to right or left will increase and decrease the digit at the cursor respectively.
+* Double push button: Pressing it doubles the frequency
+* Half push button: pressin it halves the frequency
+
+
+
 = Arduino Stroboscope
 
 == libraries used

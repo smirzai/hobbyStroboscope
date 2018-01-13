@@ -25,6 +25,11 @@
 * 3Cell Lipo Battery
 * https://www.ebay.de/itm/Hot-Sale-BLACK-PLASTIC-ELECTRONICS-PROJECT-BOX-ENCLOSURE-CASE-100x60x25-mm-CJ/112557747586?ssPageName=STRK%3AMEBIDX%3AIT&var=412955226802&_trksid=p2057872.m2749.l2649[Plastic project box 10*6*25 mm]
 
+= Hardware design
+The schematic and breadboard diagram can be found in sketch.fzz using http://fritzing.org/home/[Fritzing] free tool.
+10W LED needs around 11v. The current should be limitted to 1A on steady usage but can more current, maybe up to 10 A on very short bursts. If the 11.2 battery is directy connected to LED on steady state, there is a high chance of LED to burn. But as we only connect the battery to LED terminaln only in short bursts, it should be no problem.
+A MOSFET is used to drive the current. In the test arduino could not provide enouph voltage for Mosfet to turn on. To increase the voltage a generic 2n2222 is used.
+The pulse whichd drives the 2N2222 and Mosfet is generated accurately by Arduino.
 
 
 = Arduino Stroboscope

@@ -41,3 +41,13 @@ https://github.com/adafruit/Adafruit-GFX-Library (GFX library)
 
 
 * I used this guide for driving OLED: http://www.instructables.com/id/Monochrome-096-i2c-OLED-display-with-arduino-SSD13/
+
+= Schematics
+
+Here is the breadboard diagram:
+
+image::pics/breadboard_view.png[]
+
+and this is the schematics diagram:
+
+image::schematic.png[]

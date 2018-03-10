@@ -50,4 +50,4 @@ image::pics/breadboard_view.png[]
 
 and this is the schematics diagram:
 
-image::schematic.png[]
+image::pics/schematic.png[]
